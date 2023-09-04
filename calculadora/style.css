@@ -1,0 +1,98 @@
+@font-face {
+    font-family: calculator;
+    src: url(../portfolio/fonts/Calculator.ttf);
+}
+
+
+body{
+    background-color: rgb(45, 58, 82);
+    zoom: 0.95;
+}
+
+#calculadora_ex{
+    margin-left: 35%;
+    margin-right: 33%;
+    /* margin-top: 0%;  */
+    background-color: rgba(151, 151, 151, 0.945);
+    border-radius:5% ;
+    width: 610px;
+    height: 935px;
+    z-index: 1;
+    border: 10px solid rgba(131, 131, 131, 0.945);
+ 
+}
+
+
+
+.res{
+    width: 590px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 5%;
+    background-color: rgb(48, 48, 48);
+    align-items: center;
+    /* margin-right: ; */
+}
+
+#botoes{
+    display: flex;
+    margin-left: 1.67%;
+    margin-top: 5%;
+}
+
+.botao{
+    width: 116px;
+    height: 116px;
+    background-color: chocolate;
+    margin-left: 5.66%;
+    border-radius: 10%;
+    text-align: center;
+    border: 4px solid rgb(167, 85, 27);
+    
+}
+
+.botao1{
+    width: 116px;
+    height: 116px;
+    background-color: chocolate;
+    border-radius: 10%;
+    text-align: center;
+    border: 4px solid rgb(167, 85, 27);
+}
+
+.botao0{
+    width: 269.5px;
+    height: 116px;
+    background-color: chocolate;
+    border-radius: 10%;
+    text-align: center;
+    border: 4px solid rgb(167, 85, 27);
+}
+
+#botoes2{
+    display: flex;
+    margin-left: 1.67%;
+    margin-top: 3%;
+}
+
+
+
+.txt_btn{
+    margin-top: 30%;
+    font-size: 300%;
+    font-family: calculator;
+}
+
+.txt_btn_0{
+    margin-top: 14%;
+    font-size: 300%;
+    font-family: calculator;
+}
+
+
+
+.txt_res{
+    text-align: center;
+    font-family: calculator;
+    font-size: 800%;
+}
