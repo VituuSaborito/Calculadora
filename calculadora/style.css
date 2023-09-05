@@ -1,6 +1,6 @@
 @font-face {
     font-family: calculator;
-    src: url(../portfolio/fonts/Calculator.ttf);
+    src: url(../calculadora/fonts/Calculator.ttf);
 }
 
 
@@ -25,6 +25,7 @@ body{
 
 
 .res{
+    display: flex;
     width: 590px;
     height: 150px;
     margin-left: 10px;
@@ -32,6 +33,7 @@ body{
     background-color: rgb(48, 48, 48);
     align-items: center;
     /* margin-right: ; */
+    justify-content: end;
 }
 
 #botoes{
