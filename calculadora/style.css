@@ -34,6 +34,11 @@ body{
     align-items: center;
     /* margin-right: ; */
     justify-content: end;
+    
+}
+
+.txt_res{
+    padding-right: 2.5%;
 }
 
 #botoes{
@@ -46,7 +51,7 @@ body{
     width: 116px;
     height: 116px;
     background-color: chocolate;
-    margin-left: 5.66%;
+    margin-left: 7%;
     border-radius: 10%;
     text-align: center;
     border: 4px solid rgb(167, 85, 27);
@@ -63,7 +68,7 @@ body{
 }
 
 .botao0{
-    width: 269.5px;
+    width: 274px;
     height: 116px;
     background-color: chocolate;
     border-radius: 10%;
